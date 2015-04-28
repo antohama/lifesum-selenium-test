@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16402" started-at="2015-04-28T00:03:34Z" finished-at="2015-04-28T00:03:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16402" started-at="2015-04-28T00:03:34Z" finished-at="2015-04-28T00:03:50Z">
+      <class name="com.selenium.tests.CreateAccountTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.tests.CreateAccountTests@5870501]" name="setUp" is-config="true" duration-ms="1714" started-at="2015-04-27T19:03:34Z" finished-at="2015-04-27T19:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signupFormCompleted(com.selenium.testdata.UserData)[pri:0, instance:com.selenium.tests.CreateAccountTests@5870501]" name="signupFormCompleted" duration-ms="8079" started-at="2015-04-27T19:03:36Z" data-provider="userDataFromFile" finished-at="2015-04-27T19:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserCharacteristics [region = US, gender = Male, year = 1983, month = 8, day = 22, height = 17, weight = 178, activity = 3, goal = 30, loose rate = 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupFormCompleted -->
+        <test-method status="PASS" signature="testErrorMessages()[pri:0, instance:com.selenium.tests.CreateAccountTests@5870501]" name="testErrorMessages" duration-ms="5697" started-at="2015-04-27T19:03:44Z" finished-at="2015-04-27T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.tests.CreateAccountTests@5870501]" name="tearDown" is-config="true" duration-ms="615" started-at="2015-04-27T19:03:50Z" finished-at="2015-04-27T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.tests.CreateAccountTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
